@@ -23,10 +23,13 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+> First install may take several minutes as medmnist pulls in PyTorch.
 
 ## Usage
 
 Open and run the notebook cells.
+
+When running for the first time, VScode may prompt you to install more dependencies and restart the kernel. It is important that you accept all of these requests.
 
 ## Cleanup
 
